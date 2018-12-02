@@ -1,0 +1,6 @@
+[package]
+name = "codeadvent"
+version = "0.1.0"
+authors = ["cavos <kkwiecinski@outlook.com>"]
+
+[dependencies]
