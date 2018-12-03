@@ -24,12 +24,6 @@ pub fn solve_part1() {
         if chars.values().any(|&x| x == 3u8) {
             threes_count += 1;
         }
-        // println!(" --- {:?}", chars);
-        // let twos = chars.values().filter(|&x| *x == 2u8).count() as u32;
-        // let threes = chars.values().filter(|&x| *x == 3u8).count() as u32;
-        // twos_count += twos;
-        // threes_count += threes;
-        // println!("{:?} - twos {}, threes {}", chars, twos, threes);
     }
 
     println!("Day 02 pt1:{} * {} = {}", twos_count, threes_count, threes_count * twos_count);
