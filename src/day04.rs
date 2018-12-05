@@ -144,7 +144,7 @@ pub fn solve() {
     }
 
     println!(
-        "Day 04 pt 1: guard #{} took {} naps at {} minute = {}",
+        "Day 04 pt 2: guard #{} took {} naps at {} minute = {}",
         guard_id.unwrap(),
         max_nap_cnt,
         minute,
