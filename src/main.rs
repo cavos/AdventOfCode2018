@@ -10,6 +10,7 @@ mod day02;
 mod day03;
 mod day04;
 mod day05;
+mod day06;
 
 fn main() {
     println!("Hello, world!");
@@ -22,5 +23,7 @@ fn main() {
     day03::solve_part2();
     day04::solve();
     day05::solve_part1();
-    day05::solve_part2();
+    // day05::solve_part2();
+    day06::solve_part1();
+    day06::solve_part2();
 }
