@@ -90,7 +90,8 @@ pub fn solve() {
                         for m in start..end {
                             nap_times[m] += 1;
                         }
-                    }).or_insert(array_init::array_init(|x| {
+                    })
+                    .or_insert(array_init::array_init(|x| {
                         if start <= x && x < end {
                             1
                         } else {
